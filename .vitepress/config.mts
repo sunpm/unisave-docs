@@ -30,8 +30,8 @@ export default defineConfig({
             {text: '视图', link: 'views'},
             {text: '样式', link: 'styling'},
             {text: '数据获取', link: 'data-fetching'},
-            /*{text: '状态管理', link: 'state-management'},
-            {text: '部署', link: 'deployment'},*/
+            {text: '状态管理', link: 'state-management'},
+            /*{text: '部署', link: 'deployment'},*/
           ],
         },
       ],

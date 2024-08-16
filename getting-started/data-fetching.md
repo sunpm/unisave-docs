@@ -25,15 +25,14 @@
 }
 ```
 
-::: details GET 请求
+### GET 请求
 ```ts
 request('/**/**', {}, {
     method: 'GET',
 })
 ```
-:::
 
-::: details 传递头信息
+### 传递头信息
 ```ts
 request('/**/**', {}, {
   headers: {
@@ -41,15 +40,13 @@ request('/**/**', {}, {
   }
 })
 ```
-:::
-::: details 传递 body 体
+### 传递 body 体
 ```ts
 request('/**/**', {
   id: 1
 })
 ```
-:::
-::: details 请求不展示全局 loading
+### 请求不展示全局 loading
 ```ts
 request('/**/**', {}, {
   headers: {
@@ -57,7 +54,6 @@ request('/**/**', {}, {
   }
 })
 ```
-:::
 
 ## 类型（泛型内类型都是可不传）
 
