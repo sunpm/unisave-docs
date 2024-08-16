@@ -14,6 +14,9 @@ hero:
       text: 快速开始
       link: /getting-started/installation
     - theme: alt
+      text: 介绍说明
+      link: /getting-started/introduction
+    - theme: alt
       text: 查看演示
       link: https://uni-save.netlify.app/
 

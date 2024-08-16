@@ -43,9 +43,9 @@ unisave 由不同的开源包组成：
     - [@uni-helper/eslint-config](https://github.com/uni-helper/eslint-config) - 适用于 uni-app 的 Anthony's ESLint 配置预设
 
 ### 各平台类型定义文件
-- [x] [uni-app 组件](https://www.npmjs.com/package/@uni-helper/uni-app-types)
-- [x] [微信小程序](https://www.npmjs.com/package/miniprogram-api-typings)
-- [x] [支付宝小程序](https://www.npmjs.com/package/@mini-types/alipay)
-- [x] [字节小程序](https://www.npmjs.com/package/@douyin-microapp/typings)
-- [x] [快手小程序](https://www.npmjs.com/package/ks-miniprogram-types/global)
-- [x] [百度小程序](https://www.npmjs.com/package/@types/baidu-app)
+- [✅] [uni-app 组件](https://www.npmjs.com/package/@uni-helper/uni-app-types)
+- [✅] [微信小程序](https://www.npmjs.com/package/miniprogram-api-typings)
+- [✅] [支付宝小程序](https://www.npmjs.com/package/@mini-types/alipay)
+- [✅] [字节小程序](https://www.npmjs.com/package/@douyin-microapp/typings)
+- [✅] [快手小程序](https://www.npmjs.com/package/ks-miniprogram-types/global)
+- [✅] [百度小程序](https://www.npmjs.com/package/@types/baidu-app)
