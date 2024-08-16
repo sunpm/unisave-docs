@@ -6,8 +6,8 @@
 
 您可以使用在线编辑器在浏览器中开始试用：
 
-- [StackBlitz](https://stackblitz.com/github/sunpm/vitesse-uniapp-vue3)
-- [GitHub Template](https://github.com/sunpm/vitesse-uniapp-vue3/generate)
+- [StackBlitz](https://stackblitz.com/github/sunpm/unisave)
+- [GitHub Template](https://github.com/sunpm/unisave/generate)
 
 ## 本地使用
 
@@ -33,11 +33,11 @@ pnpm create uni <project-name> -t vitesse
 ```
 
 ```bash [degit]
-pnpx degit sunpm/vitesse-uniapp-vue3 <project-name>
+pnpx degit sunpm/unisave <project-name>
 ```
 
 ```bash [giget]
-pnpx giget gh:sunpm/vitesse-uniapp-vue3 <project-name>
+pnpx giget gh:sunpm/unisave <project-name>
 ```
 
 :::

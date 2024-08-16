@@ -29,8 +29,8 @@ export default defineConfig({
             {text: '起步', link: 'installation'},
             {text: '视图', link: 'views'},
             {text: '样式', link: 'styling'},
-            /*{text: '数据获取', link: 'data-fetching'},
-            {text: '状态管理', link: 'state-management'},
+            {text: '数据获取', link: 'data-fetching'},
+            /*{text: '状态管理', link: 'state-management'},
             {text: '部署', link: 'deployment'},*/
           ],
         },
@@ -38,7 +38,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/sunpm/vitesse-uniapp-vue3' }
+      { icon: 'github', link: 'https://github.com/sunpm/unisave' }
     ]
   }
 })
