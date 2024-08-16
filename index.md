@@ -15,7 +15,7 @@ hero:
       link: /getting-started/installation
     - theme: alt
       text: 查看演示
-      link: https://unisave.netlify.app/
+      link: https://uni-save.netlify.app/
 
 features:
   - title: 就是快
