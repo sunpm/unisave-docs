@@ -47,7 +47,7 @@
 
 ### 多端支持情况
 
-| UI 框架      | [uv-ui](https://www.uvui.cn/) | [uviewui](https://www.uviewui.com/) | [wot-ui](https://wot-design-uni.netlify.app/) | [TuniaoUI](https://vue3.tuniaokj.com/zh-CN/) | [nutui](https://nutui-uniapp.netlify.app/) |
+| UI 框架      | [uv-ui](https://www.uvui.cn/) | [uviewui](https://www.uviewui.com/) | [wot-ui](https://wot-design-uni.netlify.app/) | [TuniaoUI](https://vue3.tuniaokj.com/) | [nutui](https://nutui-uniapp.netlify.app/) |
 | :----------- | :---- | :------ | :----- | :------- | ----- |
 | h5           | ✅     | ✅       | ✅      | ✅        | ✅     |
 | app(ios)     | ✅     | ✅       | ✅      | ✅        | ❓     |
