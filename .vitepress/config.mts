@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "unisave",
-  description: "基于Uniapp、Vue 3、pinia(且持久化保存)、Typescript、UnoCSS等主流技术开发的开箱即用模版，适配所有(app、mp、web)平台！！！",
+  description: "拥抱 web 开发，拯救 uniapp。基于Uniapp、Vue 3、pinia(且持久化保存)、Typescript、UnoCSS等主流技术开发的开箱即用模版，适配所有(app、mp、web)平台！！！",
   head: [
     [
       'link',
@@ -37,7 +37,16 @@ export default defineConfig({
         },
       ],
     },
-
+    search: {
+      provider: 'local'
+    },
+    lastUpdated: {
+      text: '最后更新'
+    },
+    editLink: {
+      pattern: 'https://github.com/sunpm/unisave-docs/edit/main/:path',
+      text: '为此页提供修改建议',
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/sunpm/unisave' }
     ]
