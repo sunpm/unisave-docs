@@ -38,12 +38,13 @@ export default defineConfig({
       ],
     },
     search: {
-      provider: 'algolia',
+      /*provider: 'algolia',
       options: {
         appId: 'KWFPAOW2XX',
         apiKey: 'b6d269a179d4970986c268edeb36fcb1',
         indexName: 'unisave'
-      }
+      }*/
+      provider: 'local'
     },
     lastUpdated: {
       text: '最后更新'
