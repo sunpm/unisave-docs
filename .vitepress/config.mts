@@ -38,6 +38,10 @@ export default defineConfig({
         },
       ],
     },
+    outline: {
+      level: 'deep',
+      label: '页面导航',
+    },
     search: {
       provider: 'algolia',
       options: {
