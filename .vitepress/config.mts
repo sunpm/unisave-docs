@@ -30,6 +30,7 @@ export default defineConfig({
             {text: '视图', link: 'views'},
             {text: '样式', link: 'styling'},
             {text: '更换 UI 组件库', link: 'replace-ui'},
+            {text: '图标指南', link: 'icons'},
             {text: '数据获取', link: 'data-fetching'},
             {text: '状态管理', link: 'state-management'},
             /*{text: '部署', link: 'deployment'},*/
