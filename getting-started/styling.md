@@ -6,7 +6,7 @@
 
 [UnoCSS](https://unocss.dev/) 是按需使用的原子 CSS 引擎，提供了良好的样式支持。
 
-本模版已为其他预设启用 [attributify 模式](https://unocss-cn.pages.dev/presets/attributify#attributify-模式)。
+本模版已为其他预设启用 [attributify 模式](https://unocss.dev/presets/attributify#attributify-preset)。
 
 ### 属性前缀
 由于第三方组件库组件样式和 unocss attributify 模式冲突，已在配置中为 attributify 模式添加 `us-` 前缀。
