@@ -6,6 +6,38 @@
 
 [UnoCSS](https://unocss.dev/) 是按需使用的原子 CSS 引擎，提供了良好的样式支持。
 
+本模版已为其他预设启用 [attributify 模式](https://unocss-cn.pages.dev/presets/attributify#attributify-模式)。
+
+### 属性前缀
+由于第三方组件库组件样式和 unocss attributify 模式冲突，已在配置中为 attributify 模式添加 `us-` 前缀。
+
+```html
+<a text="red">这与链接的 `text` 属性冲突</a>
+<!-- 修改为 -->
+<a us-text="red">文字颜色设为红色</a>
+```
+
+可以根据自己喜好设置其他前缀
+```ts
+// uno.config.ts
+presetUni({
+  attributify: {
+    prefixedOnly: true,
+    prefix: 'us-', // <--
+  },
+})
+```
+
+以下多种写法等价
+```html
+<button class="border border-red">Button</button>
+
+<button us-border us-border-red>Button</button>
+
+<button us-border="~ red">Button</button>
+```
+
+### 多平台条件编译
 模板内置了 [@uni-helper/unocss-preset-uni](https://github.com/uni-helper/unocss-preset-uni)，它在底层使用 [unocss-applet](https://github.com/unocss-applet/unocss-applet) 来兼容不同平台，并提供了按平台编写样式的能力。
 
 ```html
