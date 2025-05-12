@@ -33,6 +33,7 @@ export default defineConfig({
             {text: '图标指南', link: 'icons'},
             {text: '数据获取', link: 'data-fetching'},
             {text: '状态管理', link: 'state-management'},
+            {text: '代码规范', link: 'code-style'},
             /*{text: '部署', link: 'deployment'},*/
           ],
         },
